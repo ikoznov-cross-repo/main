@@ -1,0 +1,1 @@
+https://blog.kie.org/2021/07/cross-repo-pull-requests-build-chain-tool-to-the-rescue.html[]
