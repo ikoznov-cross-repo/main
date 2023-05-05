@@ -1,0 +1,8 @@
+version: "2.2"
+dependencies:
+  -
+    project: ikoznov-cross-repo/main
+  -
+    project: ikoznov-cross-repo/lib1
+    dependencies:
+      - project: ikoznov-cross-repo/main

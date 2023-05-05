@@ -1,0 +1,6 @@
+version: "2.2"
+dependencies: ./dependency-tree.yaml
+default:
+  build-command:
+    upstream: echo "UPSTREAM"
+    current: echo "CURRENT"
