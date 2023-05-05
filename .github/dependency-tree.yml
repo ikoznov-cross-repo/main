@@ -4,5 +4,6 @@ dependencies:
     project: ikoznov-cross-repo/main
   -
     project: ikoznov-cross-repo/lib1
+    clone: another-folder
     dependencies:
       - project: ikoznov-cross-repo/main
