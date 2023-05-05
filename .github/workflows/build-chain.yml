@@ -5,13 +5,13 @@ jobs:
   build-chain:
     runs-on: ubuntu-latest
     steps:
-#      -
-#        id: build-chain
-#        uses: kiegroup/github-action-build-chain@v3
-#        with:
-#          definition-file: https://raw.githubusercontent.com/ikoznov-cross-repo/main/main/.github/definitions.yml
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      -
+        id: build-chain
+        uses: kiegroup/github-action-build-chain@v3
+        with:
+          definition-file: https://raw.githubusercontent.com/ikoznov-cross-repo/main/main/.github/definitions.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       -
         uses: actions/checkout@v3
         with:
