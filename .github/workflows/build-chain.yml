@@ -1,4 +1,6 @@
 on: [push]
+permissions:
+  contents: read
 jobs:
   build-chain:
     runs-on: ubuntu-latest
