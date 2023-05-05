@@ -1,0 +1,10 @@
+on: [push]
+jobs:
+  build-chain:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        id: build-chain
+        uses: kiegroup/github-action-build-chain@v2.5
+        with:
+          definition-file: https://raw.githubusercontent.com/ikoznov-cross-repo/main/main/.github/definitions.yml
